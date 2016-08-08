@@ -651,7 +651,7 @@ i.rating-star-big-fill {
 
 .products-sect .product {
     position: relative;
-    width: 220px;
+    width: 1000px;
     border: 1px solid #dfe0e0;
     -webkit-border-radius: 2px;
     border-radius: 2px;
@@ -670,7 +670,7 @@ i.rating-star-big-fill {
 
 .products-sect .product .product-img {
     padding: 15px 15px 0;
-    text-align: center;
+    text-align: left;
     height: 200px
 }
 
@@ -983,7 +983,7 @@ background-color: #e68a00
 }
 
 .widget {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .widget.gallery, .widget.sertificate {
@@ -1141,7 +1141,7 @@ background-color: #e68a00
     line-height: 1.3
 }
 
-.advant-item, .brand-item, .main-foot .our-shops {
+.advant-item, .main-foot .our-shops {
     display: inline-block;
     line-height: 1.2;
     float: left
@@ -1151,7 +1151,7 @@ background-color: #e68a00
     margin-top: 30px
 }
 
-.advant-item, .article-tabs .article-item .title, .brand-item {
+.advant-item, .article-tabs .article-item .title, {
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: ClearSansBold, sans-serif
@@ -1187,22 +1187,18 @@ background-color: #e68a00
     color: #5fbf00
 }
 
-.advant-item, .brand-item {
+.advant-item, {
     width: 236px;
     text-align: center
 }
 
-.brand-sect {
-    padding-bottom: 15px;
-	position:relative;
-}
 .main-menu ul.sf-menu{
 	padding-left:40px;
 }
 .text-right {
     text-align: right
 }
-.brand-sect .text-right{
+.text-right{
 	position:absolute;
 	padding:5px;
 	background:#fff;
@@ -2402,7 +2398,7 @@ span.accent {
 }
 
 .products-sect.list .product-info .tech-info, .products-sect.list-grid .product-info .tech-info {
-    float: left;
+    float: right;
     font-size: .875em;
     width: 300px;
     margin-right: 10px
@@ -2433,7 +2429,7 @@ span.accent {
 }
 
 .products-sect.list .product-info .tech-info p span.right, .products-sect.list-grid .product-info .tech-info p span.right {
-    float: right
+    float: left;
 }
 
 .products-sect.list .product-info .name, .products-sect.list-grid .product-info .name {
@@ -2442,7 +2438,7 @@ span.accent {
 }
 
 .products-sect.list .product-info .rating, .products-sect.list-grid .product-info .rating {
-    text-align: center
+    text-align: left;
 }
 
 .products-sect.list .product-info .price, .products-sect.list-grid .product-info .price {
@@ -2451,7 +2447,7 @@ span.accent {
 }
 
 .products-sect.list .product-info .links, .products-sect.list-grid .product-info .links {
-    text-align: center;
+    text-align: left;
     margin-top: 15px;
     margin-bottom: 0
 }
@@ -2463,7 +2459,7 @@ span.accent {
 
 .products-sect.list .product-info .btn, .products-sect.list-grid .product-info .btn {
     width: 180px;
-    float: right;
+    float: left;
     margin-top: 12px
 }
 
@@ -2531,7 +2527,7 @@ span.accent {
 .products-sect.list .product-info .links {
     float: left;
     margin: 3px 5px 0 10px;
-    text-align: center;
+    text-align: left;
     width: 25px
 }
 
@@ -2577,7 +2573,7 @@ span.accent {
 
 .products-sect.list .product-info .quantity input[type=text], .products-sect.list .product-info .quantity input[type=number] {
     width: 38px;
-    text-align: center;
+    text-align: left;
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
     appearance: textfield
@@ -2614,7 +2610,7 @@ span.accent {
     border: 1px solid #999;
     -webkit-border-radius: 2px;
     border-radius: 2px;
-    text-align: center;
+    text-align: left;
     margin: 4px 0 0 12px
 }
 
@@ -2836,11 +2832,11 @@ span.grey-color {
 }
 
 .cart.products-sect .info span:first-child {
-    margin-right: 300px
+    margin-right: 30px
 }
 
 .cart.products-sect .info span:nth-child(2) {
-    margin-right: 50px
+    margin-right: 15px
 }
 
 .cart.products-sect .info span:nth-child(3) {
@@ -3554,7 +3550,7 @@ span.grey-color {
         text-align: center
     }
 
-	.tags_block,.brand-sect,.advant-sect{
+	.tags_block,.advant-sect{
 		margin:30px 0;
 	}
 	
@@ -3675,11 +3671,11 @@ span.grey-color {
         width: 445px
     }
 
-    .brand-sect .sect-header::after {
+    .sect-header::after {
         width: 610px
     }
 
-    .advant-item, .brand-item {
+    .advant-item, {
         width: 24.3%;
     }
     .brands.owl-loaded .brand-item{
@@ -3846,7 +3842,7 @@ span.grey-color {
     }
 
     .products-sect.grid .product {
-        width: 244px
+        width: 20px
     }
 
     .products-sect.grid .product:last-child {
@@ -4079,10 +4075,6 @@ span.grey-color {
         padding-top: 5px
     }
 
-    .brand-sect {
-        background: #fff;
-    }
-
     .top-line .phones li {
         margin-bottom: 2px
     }
@@ -4102,7 +4094,7 @@ span.grey-color {
         padding: 5px
     }
 
-	body .content .tags_block,body .content .brand-sect, body .content .advant-sect{
+	body .content .tags_block,body .content body .content .advant-sect{
 		margin:20px 0!important;
 	}
 	.catalog-list-xs .inner-list ul{
@@ -4216,22 +4208,17 @@ span.grey-color {
         background-color: #fff
     }
 
-    .advant-item, .brand-item {
+    .advant-item, {
         width: 50%;
         padding: 0 5px
     }
 
-    .advant-item img, .brand-item img {
+    .advant-item img, {
         max-width: 100%
     }
 
-    .advant-item .advant-item-desc, .brand-item .advant-item-desc {
+    .advant-item .advant-item-desc, .advant-item-desc {
         font-size: 11px
-    }
-
-    .brands .brand-item {
-        width: 100%;
-        float:none;
     }
 
     .main-foot {
@@ -4379,7 +4366,7 @@ span.grey-color {
     .product-desc-tabs .tabs-menu a {
         padding: 1px 3px
     }
-	body .brand-sect .sect-header{
+	body .sect-header{
 		padding-top:10px!important;
 	}
        
@@ -4403,7 +4390,7 @@ span.grey-color {
         width: 300px
     }
 
-    .brand-sect .text-right {
+    .text-right {
         display: none;
     }
 
@@ -4795,7 +4782,7 @@ i.arrow-slide-brand-left{
     -ms-transform: rotate(135deg);
     transform: rotate(135deg);
 }
-.brands .owl-nav .owl-next{
+.owl-nav .owl-next{
     position: absolute;
     right: 10px;
     width: 30px;
@@ -4809,7 +4796,7 @@ i.arrow-slide-brand-left{
     padding-right: 4px;
     cursor: pointer;
 }
-.brands .owl-nav .owl-prev{
+.owl-nav .owl-prev{
     position: absolute;
     left: 10px;
     width: 30px;
@@ -4898,7 +4885,4 @@ i.arrow-slide-brand-left{
 }
 .catalog_hidden ul li .sf-mega .product-item .desc{
     font-size: 13px;
-}
-.brands .brand-item {
-    text-align: center;
 }

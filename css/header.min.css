@@ -1223,7 +1223,13 @@ img {
     font-size: .875em;
     line-height: 3;
     float:left;
+    width: 200px;
 }
+
+.search-line .socials span a {
+    margin: 0 0 0 3px;
+}
+
 .search_line_form .dropdown-menu{
 	min-width: 154px;
 }
@@ -1245,6 +1251,7 @@ img {
 	float:left;
 	font-size:12px;
 	color:#999;
+    margin-top: 1px;
 }
 .search_line_form .yandex_line span{
 	border-bottom:1px dashed #999;
@@ -1257,14 +1264,25 @@ img {
 
 .icons {
     margin: 5px;
-    float:left;
     font-size:12px;
     color:#999;
+    display: inline-block;
+}
+
+.icons .icon {
+    display: inline-block
+}
+
+.icons .icon img {
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
 .icons span{
     border-bottom:1px dashed #999;
     cursor:pointer;
+    display: inline-block;
+
 }
 
 .search-line button {
