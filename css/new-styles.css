@@ -32,11 +32,35 @@ h4.catalog-header {
 }
 
 h2 {
-
+    display: inline-block;
 }
 
 .btn-group .dropdown-menu {
     display: none;
+}
+
+.bascket {
+    padding: 0 40px;
+}
+
+.centre {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.centre li {
+    display: inline-block;
+    color: grey;
+}
+
+.centre A:visited {
+    color: grey;
+}
+
+.centre A {
+    cursor: pointer;
+    list-style-type: none;
+    color: #019cb7;
 }
 
 .filter {
