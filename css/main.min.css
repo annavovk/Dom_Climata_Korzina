@@ -701,7 +701,7 @@ i.rating-star-big-fill {
 }
 
 .products-sect .product-info {
-    padding: 15px
+    margin: 0 15px;
 }
 
 .products-sect .product-info .name {
@@ -935,9 +935,9 @@ i.rating-star-big-fill {
 
 .btn {
     vertical-align: middle;
-    padding: 2px 15px;
+    padding: 1px 13px;
     border-radius: 2px;
-    font-size: 1.25em;
+    font-size: 1.10em;
 }
 
 .btn-orange {
@@ -4961,11 +4961,11 @@ i.arrow-slide-brand-left {
 .basck-head .basck-head-text {
     display: inline-block;
     float: left;
-    width: 50%;
+    width: 45%;
 }
 
 .basck-head .info {
-    width: 50%;
+    width: 55%;
 }
 
 .basck-head .info,
@@ -4982,7 +4982,7 @@ i.arrow-slide-brand-left {
 .basck-head .avial,
 .basck-head .amount,
 .basck-head .cost {
-    margin: 0 20px;
+    margin: 0 23px;
 }
 
 .stock {
@@ -4994,22 +4994,32 @@ i.arrow-slide-brand-left {
 }
 
 .stock .in-stock {
+    margin: 0 15px;
     display: inline-block;
 }
 
 .amount-numb {
+    margin: 0 18px;
     display: inline-block;
 }
 
-.price-normal {
+
+.price {
+    margin: 0 15px;
     display: inline-block;
 }
 
-.price-line {
+.product-action-btn {
     display: inline-block;
-    text-decoration: line-through;
 }
 
-.active-btn {
+.btn-delete,
+.btn-postpone {
+    margin: 1px 0;
+    display: block;
+}
+
+.product-info {
     display: inline-block;
 }
+
