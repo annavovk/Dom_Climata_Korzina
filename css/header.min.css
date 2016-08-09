@@ -1522,7 +1522,8 @@ select {
 }
 
 .product-img{
-	text-align:center;
+	padding: 20px;
+    border: 1px solid darkgrey;
 }
 .relatet_product_block{
 	margin:40px 0;
@@ -1531,3 +1532,5 @@ select {
 	float:left;
 	width:111px;
 }
+
+

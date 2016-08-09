@@ -683,10 +683,12 @@ i.rating-star-big-fill {
 }
 
 .products-sect .product-info .name {
+    width: 330px;
     margin-top: 0;
     margin-bottom: 10px;
     font-size: .875em;
     line-height: 1.2
+
 }
 
 .products-sect .product-info .name a {
@@ -740,14 +742,9 @@ i.rating-star-big-fill {
 }
 
 .products-sect .product-info .btn-grey {
-    background-color: #999;
-    color: #FFF;
+    color: grey;
     font-size: 14px;
     padding: 8px 3px
-}
-
-.products-sect .product-info .btn-grey:hover {
-    background-color: #a6a6a6
 }
 
 .products-sect .tabs-menu {
@@ -826,16 +823,19 @@ i.rating-star-big-fill {
 }
 
 .labels .blue {
+    display: inline-block;
     background-color: #019cb7;
     color: #fff
 }
 
 .labels .green {
+    display: inline-block;
     background-color: #62c000
 }
 
 .labels .violet {
     background-color: #be3e99
+    display: inline-block;
 }
 
 .labels .red {
@@ -941,9 +941,8 @@ i.rating-star-big-fill {
 }
 
 .btn-grey {
-    background-color: #f90;
-    color: #fff;
-    border: 0
+    color: grey;
+    border: 1px solid grey;
 }
 
 .btn-transp {
@@ -4878,4 +4877,57 @@ i.arrow-slide-brand-left{
 }
 .catalog_hidden ul li .sf-mega .product-item .desc{
     font-size: 13px;
+}
+
+.basck-head {
+    padding: 0 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.basck-head .basck-head-text {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.basck-head .info {
+    width: 50%;
+}
+
+.basck-head .info,
+.basck-head .avial,
+.basck-head .amount,
+.basck-head .cost {
+    display: inline-block;
+}
+
+.products-sect {
+    padding: 0 40px;
+}
+
+.basck-head .avial,
+.basck-head .amount,
+.basck-head .cost {
+    margin: 0 20px;
+}
+
+.stock {
+    display: inline-block;
+}
+
+.stock .mark {
+    display: inline-block;
+}
+
+.stock .in-stock {
+    display: inline-block;
+}
+
+.amount-numb {
+    display: inline-block;
+}
+
+.price-line {
+    display: inline-block;
 }
