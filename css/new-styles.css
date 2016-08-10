@@ -226,3 +226,16 @@ display: inline-block}
 .propose-panel.product-img {
 display: inline-block}
 }
+
+.all-prod span {
+    color: grey;
+}
+
+.cont-details.name,
+.city,
+.address,
+.phone-numb,
+.e-mail,
+.index {
+    border: 1px solid orange;
+}
