@@ -236,6 +236,19 @@ display: inline-block}
 .address,
 .phone-numb,
 .e-mail,
-.index {
+.index,
+.cont-face,
+.fax{
     border: 1px solid orange;
+}
+
+.cont-details.payment-acc,
+.bank,
+.corr-acc,
+.bic,
+.inn-kpp,
+.kpp,
+.okpo,
+.company-adr {
+    border: 1px solid grey;
 }
