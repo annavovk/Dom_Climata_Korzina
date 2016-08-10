@@ -700,10 +700,6 @@ i.rating-star-big-fill {
     max-height: 100%
 }
 
-.products-sect .product-info {
-    margin: 0 15px;
-}
-
 .products-sect .product-info .name {
     width: 330px;
     margin-top: 0;
@@ -809,7 +805,7 @@ i.rating-star-big-fill {
 
 .labels span {
     display: inline;
-    padding: 3px 8px;
+    padding: 0 8px;
     color: #fff;
     white-space: pre;
     line-height: 1.2
@@ -4961,11 +4957,11 @@ i.arrow-slide-brand-left {
 .basck-head .basck-head-text {
     display: inline-block;
     float: left;
-    width: 45%;
+    width: 50%;
 }
 
 .basck-head .info {
-    width: 55%;
+    width: 50%;
 }
 
 .basck-head .info,
@@ -4982,44 +4978,128 @@ i.arrow-slide-brand-left {
 .basck-head .avial,
 .basck-head .amount,
 .basck-head .cost {
-    margin: 0 23px;
-}
-
-.stock {
-    display: inline-block;
-}
-
-.stock .mark {
-    display: inline-block;
-}
-
-.stock .in-stock {
     margin: 0 15px;
-    display: inline-block;
 }
 
-.amount-numb {
-    margin: 0 18px;
-    display: inline-block;
-}
-
-
-.price {
-    margin: 0 15px;
-    display: inline-block;
-}
-
-.product-action-btn {
-    display: inline-block;
-}
-
-.btn-delete,
-.btn-postpone {
-    margin: 1px 0;
-    display: block;
-}
-
+.stock,
+.stock .mark,
+.stock .in-stock,
+.amount-numb,
+.price,
+.product-action-btn,
 .product-info {
     display: inline-block;
 }
 
+.stock,
+.amount-numb {
+    vertical-align: top;
+}
+
+.amount-numb {
+    border: 1px solid lightgray;
+}
+
+.product-img img,
+.product-info,
+.stock,
+.amount-numb,
+.price {
+    margin-right: 21px;
+}
+
+.btn-delete,
+.btn-postpone {
+    margin: 10px 0;
+    display: block;
+}
+
+.price-line {
+    text-decoration: line-through;
+}
+
+.in-stock {
+    width: 55px;
+    font-size: 15px;
+    color: grey;
+    line-height: 1.2;
+}
+
+.price {
+    margin-left: 21px;
+}
+
+.wrap {
+    width: 25px;
+    display: inline-block;
+}
+
+.mark {
+    cursor: pointer;
+    background: white;
+    border-radius: 3px;
+    width: 23px;
+    height: 23px;
+    color: green;
+    display: block;
+    position: relative;
+}
+
+.mark::after,
+.mark::before {
+    position: absolute;
+    background: #48B71F;
+    display: block;
+    content: '';
+}
+
+.mark::after {
+    width: 3px;
+    height: 12px;
+    top: 4px;
+    left: 12px;
+    transform: rotate(45deg);
+}
+
+.mark::before {
+    width: 3px;
+    height: 9px;
+    top: 8px;
+    left: 5px;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+
+.btn-min {
+    color: black;
+    border: lightgrey;
+    background-color: lightgrey;
+}
+
+.btn-plus {
+    color: black;
+    border: lightgrey;
+    background-color: lightgrey;
+}
+
+.product-img .amount-numb input {
+    text-align: center;
+    width: 40px;
+    padding: 0;
+    border: 0;
+}
+
+.image-wrap {
+    display: inline-block;
+}
+
+.product-info,
+.price,
+.image-wrap,
+.product-action-btn {
+    vertical-align: middle;
+}
+
+.about_prod {
+    display: inline-block;
+}
