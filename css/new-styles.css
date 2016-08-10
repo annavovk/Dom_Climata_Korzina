@@ -213,3 +213,16 @@ h2 {
     border: 1px solid orange;
 }
 
+.content span {
+    border-bottom: 1px dashed #999;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.propose-panel {
+display: inline-block}
+}
+
+.propose-panel.product-img {
+display: inline-block}
+}
