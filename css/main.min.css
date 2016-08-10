@@ -4957,11 +4957,11 @@ i.arrow-slide-brand-left {
 .basck-head .basck-head-text {
     display: inline-block;
     float: left;
-    width: 50%;
+    width: 44%;
 }
 
 .basck-head .info {
-    width: 50%;
+    width: 56%;
 }
 
 .basck-head .info,
@@ -4978,7 +4978,7 @@ i.arrow-slide-brand-left {
 .basck-head .avial,
 .basck-head .amount,
 .basck-head .cost {
-    margin: 0 13px;
+    margin-right: 40px;
 }
 
 .stock,
@@ -5139,11 +5139,11 @@ i.arrow-slide-brand-left {
     margin-right: 5px;
 }
 
+.another-info img {
+    margin: 0;
+}
+
 .warn {
-    cursor: pointer;
-    border-radius: 3px;
-    width: 23px;
-    height: 23px;
     display: inline-block;
-    position: relative;
+    margin: 0 4px 0 0;
 }
