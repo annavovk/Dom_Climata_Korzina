@@ -4949,7 +4949,7 @@ i.arrow-slide-brand-left {
 }
 
 .basck-head {
-    padding: 0 10px;
+    padding: 10px 10px;
     display: inline-block;
     width: 100%;
 }
@@ -4978,7 +4978,7 @@ i.arrow-slide-brand-left {
 .basck-head .avial,
 .basck-head .amount,
 .basck-head .cost {
-    margin: 0 15px;
+    margin: 0 13px;
 }
 
 .stock,
@@ -5012,6 +5012,10 @@ i.arrow-slide-brand-left {
 .btn-postpone {
     margin: 10px 0;
     display: block;
+}
+
+.price-normal {
+    margin-bottom: 35px;
 }
 
 .price-line {
@@ -5097,9 +5101,49 @@ i.arrow-slide-brand-left {
 .price,
 .image-wrap,
 .product-action-btn {
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .about_prod {
     display: inline-block;
+}
+
+.another-info {
+    display: inline-block;
+}
+
+.calcul {
+    float: left;
+    display: inline-block;
+    border: 1px solid grey;
+    color #019cb7;
+}
+
+.result {
+    display: inline-block;
+    text-align: center;
+}
+
+.checkout {
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.wrap img {
+    display: inline-block;
+}
+
+.calcul img {
+    margin-right: 5px;
+}
+
+.warn {
+    cursor: pointer;
+    border-radius: 3px;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    position: relative;
 }

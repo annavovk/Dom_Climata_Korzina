@@ -1567,7 +1567,7 @@ select {
 }
 
 .product-img {
-    margin: 20px 0;
+    margin-bottom: 10px;
     padding: 10px 10px;
     border: 1px solid darkgrey;
 }
